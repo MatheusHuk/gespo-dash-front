@@ -8,7 +8,7 @@ import cubejs from "@cubejs-client/core";
 import { CubeProvider } from "@cubejs-client/react";
 import client from "./graphql/client";
 import Header from "./components/Header";
-const API_URL = "http://localhost:4000";
+const API_URL = "https://gespo-dash-back.azurewebsites.net:8080";
 const CUBEJS_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1OTA2MzU0NDEsImV4cCI6MTU5MDcyMTg0MX0.VoX8856pjiKYTVXXMfUT1OxZH1t0PC4v4nmxHfxd9gQ";
 const cubejsApi = cubejs(CUBEJS_TOKEN, {
   apiUrl: `${API_URL}/cubejs-api/v1`
