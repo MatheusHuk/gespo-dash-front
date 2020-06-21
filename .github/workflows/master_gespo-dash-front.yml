@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'gespo-dash-front'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_d2670e0a2bb24d64954a2b051c85498b }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a43cb3c5b5154e028d548d3e1d5b570a }}
         package: .
